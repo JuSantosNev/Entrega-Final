@@ -1,0 +1,292 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos generales*/
+
+body{
+    background-color: burlywood;
+}
+
+/* estilo de header*/
+nav.navbar{
+    background-color: chocolate;
+}
+
+/* estilos de main*/
+
+main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+.video-presentacion{
+    display: flex;
+margin: 0px auto;
+margin-top: 50px;
+
+}
+.somos-dgustar{
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+max-width: 960px;
+align-items: center;
+
+
+}
+
+/*estilos footer*/
+
+footer{
+   
+    text-align: center;
+    padding: 40px;
+    margin-top: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-top: 15px;
+
+}
+
+.logo-facebook{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    
+
+}
+.logo-insta{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+.logo-youtube{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+/*estilos Contacto*/
+
+.titulo-contacto{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background-color: chocolate;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.formulario{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    width: 100%;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.formulario label{
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+
+
+}
+
+.formulario .custom-input{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.formulario .custom-buttom-uno{
+
+    background-color: rgb(6, 181, 3);
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+.formulario .custom-buttom-dos{
+    background-color: rgb(164, 158, 158);
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    padding: 10px;
+
+}
+legend{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*estilos acerca de nosotros*/
+
+.main-nosotros{
+    display: flex;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo-nosotros{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background-color: chocolate;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.foto-panoramica img{
+   
+    height: auto;
+    max-width: 800px;
+    
+}
+.foto-panoramica{
+   
+    height: auto;
+   text-align: center;
+   margin: 30px;
+}
+
+.texto-nosotros{
+    max-width: 1200px;
+    font-size: medium;
+    justify-content: center;
+    margin: 20px;
+}
+
+/*estilos galeria*/
+
+.titulo-vistazo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bolder !important;
+    background-color: chocolate;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.contenedor-imagenes{
+    
+    height: 100%;
+    display: grid;
+    
+    grid-template-areas: 
+    "foto-uno foto-dos foto-tres"
+    "foto-cuatro foto-cinco foto-seis"
+    "foto-siete foto-ocho foto-nueve"
+    "foto-diez foto-once foto-doce";
+}
+
+.foto-uno{
+    grid-area: foto-uno;
+}
+.foto-dos{
+    grid-area: foto-dos;
+}
+.foto-tres{
+    grid-area: foto-tres;
+}
+.foto-cuatro{
+    grid-area: foto-cuatro;
+}
+.foto-cinco{
+    grid-area: foto-cinco;
+}
+.foto-seis{
+    grid-area: foto-seis;
+}
+.foto-siete{
+    grid-area: foto-siete;
+}
+.foto-ocho{
+    grid-area: foto-ocho;
+}
+.foto-nueve{
+    grid-area: foto-nueve;
+}
+.foto-diez{
+    grid-area: foto-diez;
+}
+.foto-once{
+    grid-area: foto-once;
+}
+.foto-doce{
+    grid-area: foto-doce;
+}
+.contenedor-imagenes img {
+    width: 100%; 
+    height: auto;}
+
+
+
+    /*estilos proximos eventos*/
+
+    .titulo-eventos{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+        font-weight: bold !important;
+        text-align: center;
+    background-color: chocolate;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    
+    }
+        
+
+.invitacion{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    align-self: center;
+    margin: 20px;
+}        
+
+.texto-flyer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        font-weight: bold;
+        font-size: large;
+        max-width: 500px;
+        margin: 20px;
+        background-color: chocolate;
+        padding: 20px;
+        border-radius: 20px;
+        
+
+}
