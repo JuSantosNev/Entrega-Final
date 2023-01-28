@@ -26,10 +26,10 @@ nav.navbar{
     }
 
     header nav ul li:hover{
-        
+        transform: scale(0.95);
         transition: 0.2s;
         box-shadow: 0px 2px rgb(225, 221, 221);
-        padding-left: 1.5px;
+        
     
     }
 }
@@ -241,6 +241,7 @@ legend{
     "texto-dos foto-dos"
     "foto-tres texto-tres"
 }
+
 
 .foto-uno{
     grid-area: foto-uno;
