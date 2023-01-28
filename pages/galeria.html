@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fuente google pacifico-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<!-- link fuente google montserrat-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
     <!--Link css BT-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--Link css-->
@@ -13,41 +21,49 @@
 <body>
 
     <!-- encabezado -->
-<header>
-  <nav class="navbar navbar-expand-lg bg-gradient">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><img src="../img/dgustar-logo-pantalla-alta-5.png" alt="logo" width="75"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active fs-4 fw-bold" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4 fw-bold" href="../pages/galeria.html">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4 fw-bold" href="../pages/eventos.html">Proximos eventos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4 fw-bold" href="../pages/nosotros.html">Acerca de nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-4 fw-bold" href="../pages/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</nav>
-</header>
+    <header>
+      <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid">
+            <div class="logo-absoluto logo-mobile">
+            <a class="navbar-brand " href="../index.html">
+              <img src="../img/dgustar-logo-pantalla-alta-5.png" alt="logo" width="150">
+            </a></div>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto py-3 color-link">
+                <li class="nav-item">
+                  <a class="nav-link active fs-5 fw-bold" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5 fw-bold" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5 fw-bold" href="eventos.html">Proximos eventos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5 fw-bold" href="nosotros.html">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5 fw-bold" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+  <div>
+    <div class="container-fluid img-fondo-index">
+      <h1 class="titulo-index">
+    Un vistazo a nuestro festival...
+  </h1>
+  </div>
+  
+  </div>
 
 <main>
-    <div class="titulo-vistazo bg-warning bg-gradient border border-dark">
-        <h2 class="fw-bolder">UN VISTAZO A NUESTRO FESTIVAL</h2> 
-     </div>
+    
     <div id="carouselExampleAutoplaying" class="carousel slide w-75 m-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -100,30 +116,35 @@
 </main>
 
 <footer>
-    <h3>Todos los derechos reservados</h3>
+  <div class="derechos">
+   <h3>Todos los derechos reservados</h3> 
+  </div>
 
-    <div class="redes-sociales">
-    
-        <div class="logo-facebook">
-            <a target="_blank" href="https://www.facebook.com/dgustarferia"><img src="../img/logo-facebook.png" alt="logo-facebook" width="50"></a>
-    </div>
+  <div class="redes-sociales">
+  
+      <div class="logo-facebook">
+          <a target="_blank" href="https://www.facebook.com/dgustarferia"><img src="../img/logo-facebook.png" alt="logo-facebook" width="32"></a>
+  </div>
 
-    <div class="logo-insta">
-        <a target="_blank" href="https://www.instagram.com/dgustarferia/"><img src="../img/logo-insta.png" alt="logo-insta" width="50"></a>
-        
-    </div>
+  <div class="logo-insta">
+      <a target="_blank" href="https://www.instagram.com/dgustarferia/"><img src="../img/logo-insta.png" alt="logo-insta" width="32"></a>
+      
+  </div>
 
-    <div class="logo-youtube">
-        <a target="_blank" href="https://www.youtube.com/@dgustar"><img src="../img/logo-youtube.png" alt="logo-youtube" width="50"></a>
-        
-    </div>
+  <div class="logo-youtube">
+      <a target="_blank" href="https://www.youtube.com/@dgustar"><img src="../img/logo-youtube.png" alt="logo-youtube" width="32"></a>
+      
+  </div>
+ 
 </div>
 <div>
-  <p class="copyright">D'gustar feria del encuentro cultural © 2018</p>
+<p class="copyright">D'gustar feria del encuentro cultural © 2018</p>
 </div>
-   
-    
+
+ 
+  
 </footer>
+
     
 </body>
 </html>
