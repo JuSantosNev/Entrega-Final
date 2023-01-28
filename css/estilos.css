@@ -213,25 +213,53 @@ legend{
 
 /*estilos acerca de nosotros*/
 
-.main-nosotros{
-    display: flex;
+.contenedor-imagenes{
     
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    display: grid;
+    
+    grid-template-areas: 
+    "foto-uno texto-uno"
+    "texto-dos foto-dos"
+    "foto-tres texto-tres"
 }
 
-.titulo-nosotros{
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
-    margin: 20px;
-    background-color:#282d32 !important;
-color:#f0f9ff ;
-    border-radius: 20px;
-    text-align: center;
-    width: 75%;
-
-
+.foto-uno{
+    grid-area: foto-uno;
+    margin: 2rem;
+    margin-top: 5rem;
 }
+.foto-dos{
+    grid-area: foto-dos;
+    margin: 2rem;
+}
+.foto-tres{
+    grid-area: foto-tres;
+    margin: 2rem;
+    margin-bottom: 5rem;
+}
+.texto-uno{
+    grid-area: texto-uno;
+    margin: 2rem;
+    margin-top: 5rem;
+    
+}
+.texto-dos{
+    grid-area: texto-dos;
+    margin: 2rem;
+}
+.texto-tres{
+    grid-area: texto-tres;
+    margin: 2rem;
+    margin-bottom: 5rem;
+}
+
+.contenedor-imagenes img {
+    width: 100%; 
+    height: auto;
+}
+
+
 
 .foto-panoramica img{
    
@@ -254,57 +282,7 @@ color:#f0f9ff ;
 
 /*estilos galeria*/
 
-.contenedor-imagenes{
-    
-    height: 100%;
-    display: grid;
-    
-    grid-template-areas: 
-    "foto-uno foto-dos foto-tres"
-    "foto-cuatro foto-cinco foto-seis"
-    "foto-siete foto-ocho foto-nueve"
-    "foto-diez foto-once foto-doce";
-}
 
-.foto-uno{
-    grid-area: foto-uno;
-}
-.foto-dos{
-    grid-area: foto-dos;
-}
-.foto-tres{
-    grid-area: foto-tres;
-}
-.foto-cuatro{
-    grid-area: foto-cuatro;
-}
-.foto-cinco{
-    grid-area: foto-cinco;
-}
-.foto-seis{
-    grid-area: foto-seis;
-}
-.foto-siete{
-    grid-area: foto-siete;
-}
-.foto-ocho{
-    grid-area: foto-ocho;
-}
-.foto-nueve{
-    grid-area: foto-nueve;
-}
-.foto-diez{
-    grid-area: foto-diez;
-}
-.foto-once{
-    grid-area: foto-once;
-}
-.foto-doce{
-    grid-area: foto-doce;
-}
-.contenedor-imagenes img {
-    width: 100%; 
-    height: auto;}
 
 
 
