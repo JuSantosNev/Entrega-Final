@@ -16,6 +16,24 @@ body p{
 nav.navbar{
     background-color: #282d32;
 }
+
+/*animaciones navbar*/
+
+@media screen and (min-width:991px){
+
+    header nav ul li{
+        transition: 0.2s;
+    }
+
+    header nav ul li:hover{
+        
+        transition: 0.2s;
+        box-shadow: 0px 2px rgb(225, 221, 221);
+        padding-left: 1.5px;
+    
+    }
+}
+
 .color-link li a{
     color: #f0f9ff !important;
 }
