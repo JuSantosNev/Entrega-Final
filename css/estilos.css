@@ -15,6 +15,27 @@ nav.navbar{
     background-color: chocolate;
 }
 
+.logo-absoluto img{
+    width: 100%;
+}
+
+@media ( min-width: 992px){
+.logo-absoluto{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    
+}
+}
+
+@media (max-width:991px){
+    .logo-mobile{
+        max-width: 90px;
+    }
+}
+
+
 /* estilos de main*/
 
 main{
@@ -26,6 +47,7 @@ main{
    
     
 }
+
 
 .video-presentacion{
     display: flex;
