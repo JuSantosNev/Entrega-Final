@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* estilos generales*/
@@ -216,12 +217,13 @@ margin-bottom:0;
 legend{
     font-size: 20px;
     font-weight: bolder;
-    opacity: 0.5;
+
 }
 
 .contenedor-form{
     width: 45%;
-    background-color: rgb(164, 158, 158);
+    background-color: rgba(255, 250, 250, 0.96);
+    margin: 5rem;
     
 }
 
@@ -231,8 +233,11 @@ legend{
 }
     
 /*estilos acerca de nosotros*/
+.foto-uno img, .foto-dos img, .foto-tres img { width: 100%}
 
-.contenedor-imagenes{
+@media screen and (min-width:1023px) {
+    /*estilo de body desktop*/
+   .contenedor-imagenes{
     
     height: 100%;
     display: grid;
@@ -242,7 +247,6 @@ legend{
     "texto-dos foto-dos"
     "foto-tres texto-tres"
 }
-
 
 .foto-uno{
     grid-area: foto-uno;
@@ -258,6 +262,8 @@ legend{
     margin: 2rem;
     margin-bottom: 5rem;
 }
+
+
 .texto-uno{
     grid-area: texto-uno;
     margin: 2rem;
@@ -278,6 +284,10 @@ legend{
     width: 100%; 
     height: auto;
 }
+ 
+    
+}
+
 
 
 
