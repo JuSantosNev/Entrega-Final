@@ -12,7 +12,9 @@ body{
 body p{
     font-size: 24px;
 }
+
 /* estilo de header*/
+
 nav.navbar{
     background-color: #282d32;
 }
@@ -87,7 +89,7 @@ main{
 
 
 .video-presentacion{
-    display: flex;
+display: flex;
 width: 100%;
 position: relative;
 height: auto;
@@ -104,9 +106,10 @@ bottom: 0;
 width: 100%;
 height: 100%;
 }
+
 .somos-dgustar{
-    margin: 30px;
-    font-family: 'Montserrat', sans-serif;
+margin: 30px;
+font-family: 'Montserrat', sans-serif;
 text-align: center;
 max-width: 960px;
 align-items: center;
@@ -116,15 +119,15 @@ align-items: center;
 
 footer{
    
-    text-align: center;
-    padding: 40px;
-    margin-top: center;
-    font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding: 40px;
+margin-top: center;
+font-family: 'Montserrat', sans-serif;
 background-color:#282d32;
 color:#f0f9ff ;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+display: flex;
+flex-direction: column;
+justify-content: end;
 }
 
 .derechos{
@@ -133,11 +136,11 @@ color:#f0f9ff ;
 
 }
 .copyright{
-    text-align:center;
-  padding-top:24px;
-  opacity:0.3;
-  font-size:13px;
-  margin-bottom:0;
+text-align:center;
+padding-top:24px;
+opacity:0.3;
+font-size:13px;
+margin-bottom:0;
 
 }
 
@@ -154,7 +157,6 @@ color:#f0f9ff ;
     height: 50px;
     width: 50px;
     
-
 }
 .logo-insta{
     display: flex;
@@ -169,21 +171,8 @@ color:#f0f9ff ;
 
 /*estilos Contacto*/
 
-.titulo-contacto{
-    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
-    margin: 20px;
-    background-color:#282d32 !important;
-color:#f0f9ff ;
-    border-radius: 20px;
-    text-align: center;
-    width: 75%;
-
-}
-
 .formulario{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin: 20px;
     margin-left: 10px;
@@ -227,8 +216,20 @@ color:#f0f9ff ;
 legend{
     font-size: 20px;
     font-weight: bolder;
+    opacity: 0.5;
 }
 
+.contenedor-form{
+    width: 45%;
+    background-color: rgb(164, 158, 158);
+    
+}
+
+.fondo-form{
+    background-image: url(../img/comida-form.jpg);
+
+}
+    
 /*estilos acerca de nosotros*/
 
 .contenedor-imagenes{
@@ -288,9 +289,9 @@ legend{
 }
 .foto-panoramica{
    
-    height: auto;
-   text-align: center;
-   margin: 30px;
+height: auto;
+text-align: center;
+margin: 30px;
 }
 
 .texto-nosotros{
