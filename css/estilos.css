@@ -9,12 +9,34 @@
 body{
     background-color: burlywood;
 }
-
+body p{
+    font-size: 20px;
+}
 /* estilo de header*/
 nav.navbar{
-    background-color: chocolate;
+    background-color: #282d32;
+}
+.color-link li a{
+    color: #f0f9ff !important;
+}
+.titulo-index{
+    font-size: 3rem;
+    color: #f0f9ff;
+    
+    
 }
 
+.img-fondo-index{
+    background-image: url("../img/panoramica-mpaz2.jpg");
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
 .logo-absoluto img{
     width: 100%;
 }
@@ -44,7 +66,6 @@ main{
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-   
     
 }
 
@@ -53,7 +74,21 @@ main{
     display: flex;
 margin: 0px auto;
 margin-top: 50px;
+width: 100%;
+position: relative;
+height: auto;
+padding-top: 56.25%;
 
+}
+
+.video-presentacion iframe{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
 }
 .somos-dgustar{
     margin: 30px;
@@ -219,7 +254,6 @@ color:#f0f9ff ;
 
 .texto-nosotros{
     max-width: 1200px;
-    font-size: medium;
     justify-content: center;
     margin: 20px;
 }
