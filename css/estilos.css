@@ -180,17 +180,17 @@ margin-bottom:0;
     padding: 70px;
     align-items: center;
     justify-content: center;
-
-    
 }
 
 .formulario label{
     font-weight: bold;
-    margin: 10px;
-    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
-
-
+    display: flex;
+    text-align: start;
+    flex-direction: column;
 }
 
 .formulario .custom-input{
@@ -198,31 +198,18 @@ margin-bottom:0;
     padding: 10px;
     margin: 20px;
 }
-.formulario .custom-buttom-uno{
 
-    background-color: rgb(6, 181, 3);
-    color: rgb(2, 2, 2);
-    font-size: 20px;
-    padding: 10px;
-    margin-left: 20px;
-    
-}
-.formulario .custom-buttom-dos{
-    background-color: rgb(164, 158, 158);
-    color: rgb(10, 10, 10);
-    font-size: 20px;
-    padding: 10px;
-
-}
 legend{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bolder;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .contenedor-form{
     width: 45%;
-    background-color: rgba(255, 250, 250, 0.96);
+    background-color: rgba(222, 222, 222, 0.96);
     margin: 5rem;
     
 }
@@ -315,8 +302,7 @@ margin: 30px;
 
 
 
-
-    /*estilos proximos eventos*/
+/*estilos proximos eventos*/
         
     .card{
         margin: 3rem;
