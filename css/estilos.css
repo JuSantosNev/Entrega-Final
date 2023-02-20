@@ -1,189 +1,131 @@
 /*reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* estilos generales*/
+body {
+  background-color: #dcdfe0; }
 
-body{
-    background-color: #dcdfe0;
-}
-body p{
-    font-size: 24px;
-}
-
-/* estilo de header*/
-
-nav.navbar{
-    background-color: #282d32;
-}
-
-/*animaciones navbar*/
-
-@media screen and (min-width:991px){
-
-    header nav ul li{
-        transition: 0.2s;
-    }
-
-    header nav ul li:hover{
-        transform: scale(0.95);
-        transition: 0.2s;
-        box-shadow: 0px 2px rgb(225, 221, 221);
-        
-    
-    }
-}
-
-.color-link li a{
-    color: #f0f9ff !important;
-}
-.titulo-index{
-    font-size: 3rem;
-    color: #f0f9ff;
-    font-family: 'Pacifico', cursive;
-    
-}
-
-.img-fondo-index{
-    background-image: url("../img/panoramica-mpaz2.jpg");
-    height: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center center;
-    background-size: cover;
-}
-.logo-absoluto img{
-    width: 100%;
-}
-
-@media ( min-width: 992px){
-.logo-absoluto{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 150px;
-    
-}
-}
-
-@media (max-width:991px){
-    .logo-mobile{
-        max-width: 90px;
-    }
-}
-
-
-/* estilos de main*/
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-
-.video-presentacion{
-display: flex;
-width: 100%;
-position: relative;
-height: auto;
-padding-top: 56.25%;
-
-}
-
-.video-presentacion iframe{
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-width: 100%;
-height: 100%;
-}
-
-.somos-dgustar{
-margin: 30px;
-font-family: 'Montserrat', sans-serif;
-text-align: center;
-max-width: 960px;
-align-items: center;
-}
+body p {
+  font-size: 1.3rem; }
 
 /*estilos footer*/
-
-footer{
-   
-text-align: center;
-padding: 40px;
-margin-top: center;
-font-family: 'Montserrat', sans-serif;
-background-color:#282d32;
-color:#f0f9ff ;
-display: flex;
-flex-direction: column;
-justify-content: end;
-}
-
-.derechos{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-
-}
-.copyright{
-text-align:center;
-padding-top:24px;
-opacity:0.3;
-font-size:13px;
-margin-bottom:0;
-
-}
-
-.redes-sociales{
+footer {
+  text-align: center;
+  padding: 40px;
+  margin-top: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #282d32;
+  color: #f0f9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end; }
+  footer .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0; }
+  footer .derechos {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder; }
+  footer .redes-sociales {
     display: flex;
     align-items: center;
     align-self: center;
     margin-top: 15px;
-    text-align:center;
-}
+    text-align: center; }
 
-.logo-facebook{
+footer .logo-facebook, footer .logo-insta, footer .logo-youtube {
+  display: flex;
+  height: 50px;
+  width: 50px; }
+
+/* estilo de header*/
+nav.navbar {
+  background-color: #282d32; }
+
+/*animaciones navbar*/
+@media screen and (min-width: 991px) {
+  header nav ul li {
+    transition: 0.2s; }
+  header nav ul li:hover {
+    transform: scale(0.95);
+    transition: 0.2s;
+    box-shadow: 0px 2px #e1dddd; } }
+
+.color-link li a {
+  color: #dcdfe0 !important; }
+
+.titulo-index {
+  font-size: 3rem;
+  color: #dcdfe0;
+  font-family: "Pacifico", cursive; }
+
+.img-fondo-index {
+  background-image: url("../img/panoramica-mpaz2.jpg");
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-size: cover; }
+
+.logo-absoluto img {
+  width: 100%; }
+
+@media (min-width: 992px) {
+  .logo-absoluto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px; } }
+
+@media (max-width: 991px) {
+  .logo-mobile {
+    max-width: 90px; } }
+
+/* estilos de main*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+  main .video-presentacion {
     display: flex;
-    height: 50px;
-    width: 50px;
-    
-}
-.logo-insta{
-    display: flex;
-    height: 50px;
-    width: 50px;
-}
-.logo-youtube{
-    display: flex;
-    height: 50px;
-    width: 50px;
-}
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding-top: 56.25%; }
+  main .video-presentacion iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; }
+  main .somos-dgustar {
+    margin: 30px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    max-width: 960px;
+    align-items: center; }
 
 /*estilos Contacto*/
-
-.formulario{
-    font-family: 'Montserrat', sans-serif;
-    max-width:100%;
-    width: 100%;
-    margin: 20px;
-    margin-left: 10px;
-    padding: 70px;
-    align-items: center;
-    justify-content: center;
-}
-
-.formulario label{
+.formulario {
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  width: 100%;
+  margin: 20px;
+  margin-left: 10px;
+  padding: 70px;
+  align-items: center;
+  justify-content: center; }
+  .formulario .formulario label {
     font-weight: bold;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -191,121 +133,116 @@ margin-bottom:0;
     font-size: 1rem;
     display: flex;
     text-align: start;
-    flex-direction: column;
-}
-
-.formulario .custom-input{
+    flex-direction: column; }
+  .formulario .formulario .custom-input {
     font-size: 20px;
     padding: 10px;
-    margin: 20px;
-}
+    margin: 20px; }
+  .formulario .color-boton-enviar {
+    background-color: #eebd40; }
 
-legend{
-    font-size: 2rem;
+.contenedor-form {
+  max-width: 70%;
+  width: 100%;
+  background-color: #dcdfe0;
+  margin: 5rem;
+  border-radius: 5px;
+  justify-content: center; }
+  .contenedor-form legend {
+    font-size: 2.5rem;
     font-weight: bolder;
+    text-align: left;
     margin-bottom: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif; }
 
-}
+.fondo-form {
+  background-image: url(../img/comida-form.jpg); }
 
-.contenedor-form{
-    max-width: 100%;
-    width: 45%;
-    background-color: rgba(222, 222, 222, 0.96);
-    margin: 5rem;
-    
-}
+@media (max-width: 991px) {
+  .contenedor-form {
+    max-width: 60%;
+    width: 100%;
+    background-color: #dcdfe0;
+    margin: 3rem;
+    border-radius: 5px; }
+    .contenedor-form legend {
+      font-size: 1.5rem;
+      font-weight: bolder;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-family: "Montserrat", sans-serif; }
+  .formulario label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    display: flex;
+    text-align: start;
+    flex-direction: column; }
+  .formulario .custom-input {
+    font-size: 0.8rem;
+    padding: 10px;
+    margin: 20px; }
+  .holder {
+    font-size: 0.8rem; } }
 
-.fondo-form{
-    background-image: url(../img/comida-form.jpg);
-
-}
-
-
-    
 /*estilos acerca de nosotros*/
-.foto-uno img, .foto-dos img, .foto-tres img { width: 100%}
+.foto-uno img, .foto-dos img, .foto-tres img {
+  width: 100%; }
 
-@media screen and (min-width:1023px) {
-    /*estilo de body desktop*/
-   .contenedor-imagenes{
-    
+@media screen and (min-width: 1023px) {
+  /*estilo de body desktop*/
+  .contenedor-imagenes {
     height: 100%;
     display: grid;
-    
-    grid-template-areas: 
-    "foto-uno texto-uno"
-    "texto-dos foto-dos"
-    "foto-tres texto-tres"
-}
+    grid-template-areas: "foto-uno texto-uno" "texto-dos foto-dos" "foto-tres texto-tres"; }
+    .contenedor-imagenes .foto-uno {
+      grid-area: foto-uno;
+      margin: 2rem;
+      margin-top: 5rem; }
+    .contenedor-imagenes .foto-dos {
+      grid-area: foto-dos;
+      margin: 2rem; }
+    .contenedor-imagenes .foto-tres {
+      grid-area: foto-tres;
+      margin: 2rem;
+      margin-bottom: 5rem; }
+    .contenedor-imagenes .texto-uno {
+      grid-area: texto-uno;
+      margin: 2rem;
+      margin-top: 5rem;
+      font-size: 1.8rem; }
+    .contenedor-imagenes .texto-dos {
+      grid-area: texto-dos;
+      margin: 2rem;
+      font-size: 1.8rem; }
+    .contenedor-imagenes .texto-tres {
+      grid-area: texto-tres;
+      margin: 2rem;
+      margin-bottom: 5rem;
+      font-size: 1.8rem; }
+    .contenedor-imagenes .contenedor-imagenes img {
+      width: 100%;
+      height: auto; } }
 
-.foto-uno{
-    grid-area: foto-uno;
-    margin: 2rem;
-    margin-top: 5rem;
-}
-.foto-dos{
-    grid-area: foto-dos;
-    margin: 2rem;
-}
-.foto-tres{
-    grid-area: foto-tres;
-    margin: 2rem;
-    margin-bottom: 5rem;
-}
+.foto-panoramica img {
+  height: auto;
+  max-width: 800px; }
 
+.foto-panoramica {
+  height: auto;
+  text-align: center;
+  margin: 30px; }
 
-.texto-uno{
-    grid-area: texto-uno;
-    margin: 2rem;
-    margin-top: 5rem;
-    
-}
-.texto-dos{
-    grid-area: texto-dos;
-    margin: 2rem;
-}
-.texto-tres{
-    grid-area: texto-tres;
-    margin: 2rem;
-    margin-bottom: 5rem;
-}
-
-.contenedor-imagenes img {
-    width: 100%; 
-    height: auto;
-}
- 
-    
-}
-
-
-.foto-panoramica img{
-   
-    height: auto;
-    max-width: 800px;
-    
-}
-.foto-panoramica{
-   
-height: auto;
-text-align: center;
-margin: 30px;
-}
-
-.texto-nosotros{
-    display: flex;
-    text-align: center;
-    margin: 20px;
-}
-
-/*estilos galeria*/
-
-
-
+.texto-nosotros {
+  display: flex;
+  text-align: center;
+  margin: 20px; }
 
 /*estilos proximos eventos*/
-        
-    .card{
-        margin: 3rem;
-    }
+.card {
+  margin: 3rem;
+  background-color: #dbcbb1; }
+  .card .boton-evento {
+    background-color: #eebd40; }

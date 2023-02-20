@@ -1,0 +1,25 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* estilos generales*/
+
+body{
+    background-color: #dcdfe0;
+}
+body p{
+    font-size: 1.3rem;
+}
+
+$color-base-claro: #dcdfe0;
+
+$color-base-oscuro: #282d32;
+
+$color-base-boton-enviar: #eebd40;
+
+$fuente-base: 'Montserrat', sans-serif;
+
+$fuente-banner: 'Pacifico', cursive;

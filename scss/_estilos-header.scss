@@ -1,0 +1,61 @@
+/* estilo de header*/
+
+nav.navbar{
+    background-color:$color-base-oscuro;
+}
+
+/*animaciones navbar*/
+
+@media screen and (min-width:991px){
+
+    header nav ul li{
+        transition: 0.2s;
+    }
+
+    header nav ul li:hover{
+        transform: scale(0.95);
+        transition: 0.2s;
+        box-shadow: 0px 2px rgb(225, 221, 221);
+        
+    
+    }
+}
+
+.color-link li a{
+    color: $color-base-claro !important;
+}
+.titulo-index{
+    font-size: 3rem;
+    color: $color-base-claro;
+    font-family: $fuente-banner
+    
+}
+
+.img-fondo-index{
+    background-image: url("../img/panoramica-mpaz2.jpg");
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+}
+.logo-absoluto img{
+    width: 100%;
+}
+
+@media ( min-width: 992px){
+.logo-absoluto{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    
+}
+}
+
+@media (max-width:991px){
+    .logo-mobile{
+        max-width: 90px;
+    }
+}

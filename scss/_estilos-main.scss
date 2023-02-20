@@ -1,0 +1,37 @@
+/* estilos de main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   .video-presentacion{
+display: flex;
+width: 100%;
+position: relative;
+height: auto;
+padding-top: 56.25%;
+
+}
+
+.video-presentacion iframe{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+} 
+.somos-dgustar{
+margin: 30px;
+font-family: $fuente-base;
+text-align: center;
+max-width: 960px;
+align-items: center;
+}}
+
+
+
+

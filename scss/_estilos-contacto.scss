@@ -1,0 +1,94 @@
+/*estilos Contacto*/
+
+.formulario{
+    font-family: $fuente-base;
+    max-width: 100%;
+    width: 100%;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+.formulario label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.formulario .custom-input{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.color-boton-enviar{
+    background-color:$color-base-boton-enviar;
+}
+}
+
+
+
+
+
+
+
+.contenedor-form{
+    max-width: 70%;
+    width: 100%;
+    background-color: $color-base-claro;
+    margin: 5rem;
+    border-radius: 5px;
+    justify-content: center;
+    legend{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-family: $fuente-base;}
+
+}
+
+.fondo-form{
+    background-image: url(../img/comida-form.jpg);
+
+}
+
+@media (max-width: 991px) {.contenedor-form{
+    max-width: 60%;
+    width: 100%;
+    background-color: $color-base-claro;
+    margin: 3rem;
+    border-radius: 5px;
+    legend{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: $fuente-base;}
+
+}
+.formulario label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.formulario .custom-input{
+    font-size: 0.8rem;
+    padding: 10px;
+    margin: 20px;
+}
+.holder{
+    font-size: 0.8rem
+}
+     }

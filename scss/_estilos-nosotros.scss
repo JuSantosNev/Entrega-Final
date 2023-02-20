@@ -1,0 +1,79 @@
+/*estilos acerca de nosotros*/
+.foto-uno img, .foto-dos img, .foto-tres img { width: 100%}
+
+@media screen and (min-width:1023px) {
+    /*estilo de body desktop*/
+   .contenedor-imagenes{
+    
+    height: 100%;
+    display: grid;
+    
+    grid-template-areas: 
+    "foto-uno texto-uno"
+    "texto-dos foto-dos"
+    "foto-tres texto-tres";
+
+.foto-uno{
+    grid-area: foto-uno;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+.foto-dos{
+    grid-area: foto-dos;
+    margin: 2rem;
+}
+.foto-tres{
+    grid-area: foto-tres;
+    margin: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.texto-uno{
+    grid-area: texto-uno;
+    margin: 2rem;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    
+}
+.texto-dos{
+    grid-area: texto-dos;
+    margin: 2rem;
+    font-size: 1.8rem;
+}
+.texto-tres{
+    grid-area: texto-tres;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+}
+
+.contenedor-imagenes img {
+    width: 100%; 
+    height: auto;
+}}
+
+
+ 
+    
+}
+
+
+.foto-panoramica img{
+   
+    height: auto;
+    max-width: 800px;
+    
+}
+.foto-panoramica{
+   
+height: auto;
+text-align: center;
+margin: 30px;
+}
+
+.texto-nosotros{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
